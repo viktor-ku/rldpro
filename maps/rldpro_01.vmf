@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2631"
+	"mapversion" "2632"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2631"
+	"mapversion" "2632"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -113992,20 +113992,6 @@ entity
 }
 entity
 {
-	"id" "455370"
-	"classname" "info_node_air"
-	"nodeid" "322"
-	"origin" "-4160 -3936 592"
-	editor
-	{
-		"color" "232 171 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 4000]"
-	}
-}
-entity
-{
 	"id" "455382"
 	"classname" "info_node_air"
 	"nodeid" "327"
@@ -144134,8 +144120,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-8103.65 -5853.4 1590.81]"
-		"look" "[-8278.05 -6232.44 1197.91]"
+		"position" "[-8554.24 -6034.23 1605.14]"
+		"look" "[-8050.38 -6147.86 1356.79]"
 	}
 	camera
 	{
