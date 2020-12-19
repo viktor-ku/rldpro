@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2632"
+	"mapversion" "2633"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2632"
+	"mapversion" "2633"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -84929,7 +84929,7 @@ entity
 	"classname" "info_player_start"
 	"angles" "0 270 0"
 	"spawnflags" "1"
-	"origin" "-8158 -5936 1464"
+	"origin" "-8194 -5952 1370"
 	editor
 	{
 		"color" "0 255 0"
@@ -144120,8 +144120,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-8554.24 -6034.23 1605.14]"
-		"look" "[-8050.38 -6147.86 1356.79]"
+		"position" "[-8071.22 -5658.06 1482.84]"
+		"look" "[-8029.39 -5102.77 1347.3]"
 	}
 	camera
 	{
