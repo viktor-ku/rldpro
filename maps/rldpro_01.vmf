@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2817"
+	"mapversion" "2818"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2817"
+	"mapversion" "2818"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -140243,10 +140243,10 @@ entity
 	"id" "711175"
 	"classname" "env_physexplosion"
 	"inner_radius" "0"
-	"magnitude" "80"
+	"magnitude" "100"
 	"radius" "0"
 	"spawnflags" "3"
-	"targetname" "huje"
+	"targetname" "rld_tel_dest_1_push"
 	"origin" "-8120 -5740 1584"
 	editor
 	{
@@ -140266,7 +140266,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "rld_tel_dest_1_freeze,Kill,,0.1,-1"
-		"OnStartTouch" "huje,Explode,,0.1,-1"
+		"OnStartTouch" "rld_tel_dest_1_push,Explode,,0.11,-1"
 	}
 	solid
 	{
@@ -140647,8 +140647,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-7704.39 -4521.02 591.824]"
-		"look" "[-7621.18 -4358.96 461.638]"
+		"position" "[-8340.4 -5781.05 1701.57]"
+		"look" "[-8128.5 -5797.28 1631.08]"
 	}
 }
 cordon
