@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2633"
+	"mapversion" "2639"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2633"
+	"mapversion" "2639"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -95284,20 +95284,6 @@ entity
 }
 entity
 {
-	"id" "373448"
-	"classname" "info_node_air"
-	"nodeid" "2"
-	"origin" "-5808 -4659 593"
-	editor
-	{
-		"color" "232 171 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -1268]"
-	}
-}
-entity
-{
 	"id" "377105"
 	"classname" "info_node"
 	"nodeid" "11"
@@ -113992,20 +113978,6 @@ entity
 }
 entity
 {
-	"id" "455382"
-	"classname" "info_node_air"
-	"nodeid" "327"
-	"origin" "-5024 -3776 928"
-	editor
-	{
-		"color" "232 171 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 6500]"
-	}
-}
-entity
-{
 	"id" "455394"
 	"classname" "info_node_air"
 	"nodeid" "328"
@@ -114030,48 +114002,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4500 7500]"
-	}
-}
-entity
-{
-	"id" "455440"
-	"classname" "info_node_air"
-	"nodeid" "331"
-	"origin" "-5296 -4624 592"
-	editor
-	{
-		"color" "232 171 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 8500]"
-	}
-}
-entity
-{
-	"id" "455460"
-	"classname" "info_node_air"
-	"nodeid" "336"
-	"origin" "-6784 -4480 592"
-	editor
-	{
-		"color" "232 171 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 11000]"
-	}
-}
-entity
-{
-	"id" "455462"
-	"classname" "info_node_air"
-	"nodeid" "337"
-	"origin" "-7056 -4416 592"
-	editor
-	{
-		"color" "232 171 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 11500]"
 	}
 }
 entity
@@ -130458,202 +130388,6 @@ entity
 }
 entity
 {
-	"id" "513148"
-	"classname" "trigger_multiple"
-	"origin" "-6344 -4322 584"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"wait" "1"
-	connections
-	{
-		"OnTrigger" "portal_attic2_window2,Close,,0,-1"
-		"OnTrigger" "portal_attic2_window1,Close,,0,-1"
-		"OnTrigger" "portal_attic1,Open,,0,-1"
-	}
-	solid
-	{
-		"id" "513149"
-		side
-		{
-			"id" "93228"
-			"plane" "(-6352 -4224 664) (-6336 -4224 664) (-6336 -4420 664)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -24] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93229"
-			"plane" "(-6352 -4420 504) (-6336 -4420 504) (-6336 -4224 504)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -24] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93230"
-			"plane" "(-6352 -4224 664) (-6352 -4420 664) (-6352 -4420 504)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93231"
-			"plane" "(-6336 -4224 504) (-6336 -4420 504) (-6336 -4420 664)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93232"
-			"plane" "(-6336 -4224 664) (-6352 -4224 664) (-6352 -4224 504)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -24] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93233"
-			"plane" "(-6336 -4420 504) (-6352 -4420 504) (-6352 -4420 664)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -24] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5500 -12768]"
-	}
-}
-entity
-{
-	"id" "513176"
-	"classname" "trigger_multiple"
-	"origin" "-6424 -4322 584"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"wait" "1"
-	connections
-	{
-		"OnTrigger" "portal_attic2_window2,Open,,0,-1"
-		"OnTrigger" "portal_attic2_window1,Open,,0,-1"
-		"OnTrigger" "portal_attic1,Close,,0,-1"
-	}
-	solid
-	{
-		"id" "513177"
-		side
-		{
-			"id" "93234"
-			"plane" "(-6432 -4224 664) (-6416 -4224 664) (-6416 -4420 664)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 40] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93235"
-			"plane" "(-6432 -4420 504) (-6416 -4420 504) (-6416 -4224 504)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 40] 0.25"
-			"vaxis" "[0 -1 0 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93236"
-			"plane" "(-6432 -4224 664) (-6432 -4420 664) (-6432 -4420 504)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93237"
-			"plane" "(-6416 -4224 504) (-6416 -4420 504) (-6416 -4420 664)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93238"
-			"plane" "(-6416 -4224 664) (-6432 -4224 664) (-6432 -4224 504)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 40] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93239"
-			"plane" "(-6416 -4420 504) (-6432 -4420 504) (-6432 -4420 664)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 40] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5500 -12268]"
-	}
-}
-entity
-{
 	"id" "513214"
 	"classname" "func_areaportal"
 	"PortalVersion" "1"
@@ -144120,8 +143854,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-8071.22 -5658.06 1482.84]"
-		"look" "[-8029.39 -5102.77 1347.3]"
+		"position" "[-8355.91 -6291.03 1699.61]"
+		"look" "[-8127.84 -5821.55 1462.84]"
 	}
 	camera
 	{
