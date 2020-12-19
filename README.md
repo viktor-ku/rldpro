@@ -35,20 +35,7 @@ to the next level preserving the velocity, so you can practise _"the landing"_.
 - Make it to the right spot
 - Land on the roof in the next level
 
-### 3. Paint the wheel
-
-This is the beginning of the skip, when you have to hit the bucket at a
-right angel.
-
-- Span near the vehicle
-
-#### Goals 
-
-- Make the bucket fly
-- Touch the bucket at a right angle
-- Land in the room
-
-### 4. The trigger
+### 3. The trigger
 
 This is the most precise part of the skip - you have to place the pallet in the right spot.
 
@@ -56,4 +43,4 @@ This is the most precise part of the skip - you have to place the pallet in the 
 
 #### Goals
 
-- Touch the trigger in the right spot
+- Place the pallet in the right spot
