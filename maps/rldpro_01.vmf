@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2870"
+	"mapversion" "2878"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -56,13 +56,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "0"
-	"mapversion" "2870"
+	"mapversion" "2878"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -81769,7 +81769,6 @@ entity
 		"OnTrigger" "sound_elevator_ding,PlaySound,,1,-1"
 		"OnTrigger" "tracktrain_elevator,Stop,,0,-1"
 		"OnTrigger" "door_elevator_clip,Disable,,2,-1"
-		"OnTrigger" "elevator_link,TurnOn,,1.5,-1"
 	}
 	"origin" "-7760 -3960.09 448.31"
 	editor
@@ -81802,105 +81801,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5500 -8268]"
-	}
-}
-entity
-{
-	"id" "516229"
-	"classname" "trigger_once"
-	"origin" "-7721.01 -3960 432"
-	"spawnflags" "2"
-	"StartDisabled" "0"
-	"targetname" "trigger_elevator_alyxinside"
-	connections
-	{
-		"OnTrigger" "trigger_elevator_go_down,Enable,,0,-1"
-	}
-	solid
-	{
-		"id" "516230"
-		side
-		{
-			"id" "93270"
-			"plane" "(-7696 -3884 480) (-7696 -4036 480) (-7796 -4036 480)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -15.9961] 1"
-			"vaxis" "[1 0 0 -7.99609] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93271"
-			"plane" "(-7796 -3884 384) (-7796 -4036 384) (-7696 -4036 384)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -15.9961] 1"
-			"vaxis" "[1 0 0 -7.99609] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93272"
-			"plane" "(-7796 -4036 384) (-7796 -4036 480) (-7696 -4036 480)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 7.99609] 1"
-			"vaxis" "[0 0 -1 -52] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93273"
-			"plane" "(-7696 -3884 384) (-7696 -3884 480) (-7796 -3884 480)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 7.99609] 1"
-			"vaxis" "[0 0 -1 -52] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93274"
-			"plane" "(-7796 -3884 384) (-7796 -3884 480) (-7796 -4036 480)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -15.9961] 1"
-			"vaxis" "[0 0 -1 -52] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "93275"
-			"plane" "(-7696 -4036 384) (-7696 -4036 480) (-7696 -3884 480)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -15.9961] 1"
-			"vaxis" "[0 0 -1 -52] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupid" "9"
-		"visgroupid" "14"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"comments" "This trigger is fired when Alyx moves onto the elevator, and enables the trigger allowing the elevator to begin."
-		"logicalpos" "[5500 -7768]"
 	}
 }
 entity
@@ -84441,36 +84341,6 @@ entity
 }
 entity
 {
-	"id" "602102"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_look_ele_button2"
-	"origin" "-7680 -4020.09 441"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7500 11000]"
-	}
-}
-entity
-{
-	"id" "602118"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_alyx_walk_to_elevator2"
-	"origin" "-7706 -4013.09 384"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7500 15000]"
-	}
-}
-entity
-{
 	"id" "615663"
 	"classname" "prop_physics"
 	"angles" "0 30 0"
@@ -84996,7 +84866,7 @@ entity
 	"classname" "trigger_once"
 	"origin" "-7749.01 -3960 438"
 	"spawnflags" "1"
-	"StartDisabled" "1"
+	"StartDisabled" "0"
 	"targetname" "trigger_elevator_go_down"
 	connections
 	{
@@ -85004,9 +84874,7 @@ entity
 		"OnTrigger" "door_elevator_L,Close,,0,-1"
 		"OnTrigger" "door_elevator_R,Close,,0,-1"
 		"OnTrigger" "door_elevator_topsliding,Close,,0,-1"
-		"OnTrigger" "lcs_alyxgreet02,Start,,0.5,-1"
-		"OnStartTouch" "speaker_alyxfollow1,TurnOff,,0,-1"
-		"OnStartTouch" "speaker_alyxfollow1,Kill,,0.1,-1"
+		"OnTrigger" "tracktrain_elevator,Toggle,,3,-1"
 	}
 	solid
 	{
@@ -86161,74 +86029,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8500 -8268]"
-	}
-}
-entity
-{
-	"id" "696657"
-	"classname" "info_node"
-	"nodeid" "1454"
-	"spawnflags" "513"
-	"origin" "-7704 -3976 389"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -7768]"
-	}
-}
-entity
-{
-	"id" "696659"
-	"classname" "info_node"
-	"nodeid" "1455"
-	"spawnflags" "513"
-	"origin" "-7704 -3932 389"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -7268]"
-	}
-}
-entity
-{
-	"id" "696671"
-	"classname" "info_node_link"
-	"EndNode" "1454"
-	"initialstate" "0"
-	"linktype" "1"
-	"spawnflags" "1"
-	"StartNode" "1388"
-	"targetname" "elevator_link"
-	"origin" "-7692 -3976 391.622"
-	editor
-	{
-		"color" "220 180 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -6768]"
-	}
-}
-entity
-{
-	"id" "696677"
-	"classname" "info_node_link"
-	"EndNode" "1455"
-	"initialstate" "0"
-	"linktype" "1"
-	"spawnflags" "1"
-	"StartNode" "1387"
-	"targetname" "elevator_link"
-	"origin" "-7692 -3932 391.622"
-	editor
-	{
-		"color" "220 180 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -6268]"
 	}
 }
 entity
@@ -88248,6 +88048,7 @@ entity
 	"classname" "info_target"
 	"angles" "0 0 0"
 	"parentname" "tracktrain_elevator"
+	"spawnflags" "0"
 	"targetname" "target_lighting_elevator"
 	"origin" "-7728 -3992 432"
 	editor
@@ -88525,6 +88326,101 @@ entity
 		"logicalpos" "[500 6500]"
 	}
 }
+entity
+{
+	"id" "715629"
+	"classname" "trigger_once"
+	"origin" "-7588 -3968 448"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "relay_elevator_1,Trigger,,0,-1"
+	}
+	solid
+	{
+		"id" "715624"
+		side
+		{
+			"id" "99786"
+			"plane" "(-7624 -3904 512) (-7552 -3904 512) (-7552 -4032 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99785"
+			"plane" "(-7624 -4032 384) (-7552 -4032 384) (-7552 -3904 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99784"
+			"plane" "(-7624 -3904 512) (-7624 -4032 512) (-7624 -4032 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99783"
+			"plane" "(-7552 -3904 384) (-7552 -4032 384) (-7552 -4032 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99782"
+			"plane" "(-7552 -3904 512) (-7624 -3904 512) (-7624 -3904 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99781"
+			"plane" "(-7552 -4032 384) (-7624 -4032 384) (-7624 -4032 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
 cameras
 {
 	"activecamera" "1"
@@ -88535,8 +88431,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-7560.08 -3998.75 475.053]"
-		"look" "[-7844.35 -3656.07 273.08]"
+		"position" "[-7540.37 -4049.71 473.88]"
+		"look" "[-7807.28 -3683.3 290.729]"
 	}
 }
 cordon
