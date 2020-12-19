@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2878"
+	"mapversion" "2880"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -56,13 +56,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "0"
-	"mapversion" "2878"
+	"mapversion" "2880"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -56613,10 +56613,10 @@ entity
 		side
 		{
 			"id" "99576"
-			"plane" "(-8164 -5824 1648) (-8116 -5824 1648) (-8116 -5872 1648)"
+			"plane" "(-8164 -5824 1704) (-8164 -5776 1704) (-8116 -5776 1704)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -56624,10 +56624,10 @@ entity
 		side
 		{
 			"id" "99575"
-			"plane" "(-8164 -5872 1632) (-8116 -5872 1632) (-8116 -5824 1632)"
+			"plane" "(-8164 -5776 1688) (-8164 -5824 1688) (-8116 -5824 1688)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -56635,10 +56635,10 @@ entity
 		side
 		{
 			"id" "99574"
-			"plane" "(-8164 -5824 1648) (-8164 -5872 1648) (-8164 -5872 1632)"
+			"plane" "(-8164 -5824 1688) (-8164 -5776 1688) (-8164 -5776 1704)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -56646,10 +56646,10 @@ entity
 		side
 		{
 			"id" "99573"
-			"plane" "(-8116 -5824 1632) (-8116 -5872 1632) (-8116 -5872 1648)"
+			"plane" "(-8116 -5776 1688) (-8116 -5824 1688) (-8116 -5824 1704)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -56657,10 +56657,10 @@ entity
 		side
 		{
 			"id" "99572"
-			"plane" "(-8116 -5824 1648) (-8164 -5824 1648) (-8164 -5824 1632)"
+			"plane" "(-8164 -5776 1688) (-8116 -5776 1688) (-8116 -5776 1704)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -56668,10 +56668,10 @@ entity
 		side
 		{
 			"id" "99571"
-			"plane" "(-8116 -5872 1632) (-8164 -5872 1632) (-8164 -5872 1648)"
+			"plane" "(-8116 -5824 1688) (-8164 -5824 1688) (-8164 -5824 1704)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -56699,7 +56699,7 @@ entity
 	"angles" "45 283 0"
 	"spawnflags" "0"
 	"targetname" "rld_tel_dest_1"
-	"origin" "-8140 -5848 1640"
+	"origin" "-8140 -5800 1696"
 	editor
 	{
 		"color" "234 255 0"
@@ -86932,11 +86932,11 @@ entity
 	"id" "711175"
 	"classname" "env_physexplosion"
 	"inner_radius" "0"
-	"magnitude" "100"
+	"magnitude" "150"
 	"radius" "0"
 	"spawnflags" "3"
 	"targetname" "rld_tel_dest_1_push"
-	"origin" "-8120 -5740 1584"
+	"origin" "-8120 -5692 1640"
 	editor
 	{
 		"color" "220 30 220"
@@ -86963,10 +86963,10 @@ entity
 		side
 		{
 			"id" "99588"
-			"plane" "(-8156 -5832 1700) (-8124 -5832 1700) (-8124 -5864 1700)"
+			"plane" "(-8156 -5816 1756) (-8156 -5784 1756) (-8124 -5784 1756)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -86974,10 +86974,10 @@ entity
 		side
 		{
 			"id" "99587"
-			"plane" "(-8156 -5864 1576) (-8124 -5864 1576) (-8124 -5832 1576)"
+			"plane" "(-8156 -5784 1632) (-8156 -5816 1632) (-8124 -5816 1632)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -86985,10 +86985,10 @@ entity
 		side
 		{
 			"id" "99586"
-			"plane" "(-8156 -5832 1700) (-8156 -5864 1700) (-8156 -5864 1576)"
+			"plane" "(-8156 -5816 1632) (-8156 -5784 1632) (-8156 -5784 1756)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -86996,10 +86996,10 @@ entity
 		side
 		{
 			"id" "99585"
-			"plane" "(-8124 -5832 1576) (-8124 -5864 1576) (-8124 -5864 1700)"
+			"plane" "(-8124 -5784 1632) (-8124 -5816 1632) (-8124 -5816 1756)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -87007,10 +87007,10 @@ entity
 		side
 		{
 			"id" "99584"
-			"plane" "(-8124 -5832 1700) (-8156 -5832 1700) (-8156 -5832 1576)"
+			"plane" "(-8156 -5784 1632) (-8124 -5784 1632) (-8124 -5784 1756)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -87018,10 +87018,10 @@ entity
 		side
 		{
 			"id" "99583"
-			"plane" "(-8124 -5864 1576) (-8156 -5864 1576) (-8156 -5864 1700)"
+			"plane" "(-8124 -5816 1632) (-8156 -5816 1632) (-8156 -5816 1756)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -88431,8 +88431,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-7540.37 -4049.71 473.88]"
-		"look" "[-7807.28 -3683.3 290.729]"
+		"position" "[-8447.06 -5703.57 1781.7]"
+		"look" "[-8007.47 -5790.05 1585.96]"
 	}
 }
 cordon
