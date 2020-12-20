@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "3116"
+	"mapversion" "3128"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,13 +62,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "0"
-	"mapversion" "3116"
+	"mapversion" "3128"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -88257,6 +88257,7 @@ entity
 	connections
 	{
 		"OnTrigger" "speaker,PlaySound,,0,-1"
+		"OnTrigger" "jump_fail_trigger,Disable,,0,-1"
 	}
 	"origin" "-9840 -7908 1192"
 	editor
@@ -88267,13 +88268,141 @@ entity
 		"logicalpos" "[0 15500]"
 	}
 }
+entity
+{
+	"id" "723872"
+	"classname" "trigger_multiple"
+	"origin" "-9056 -6128 1152"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "jump_fail_trigger"
+	"wait" "1"
+	connections
+	{
+		"OnTrigger" "jump_fail_sound,PlaySound,,0,-1"
+	}
+	solid
+	{
+		"id" "723864"
+		side
+		{
+			"id" "100132"
+			"plane" "(-9920 -6112 1280) (-8192 -6112 1280) (-8192 -6144 1280)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100131"
+			"plane" "(-9920 -6144 1024) (-8192 -6144 1024) (-8192 -6112 1024)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100130"
+			"plane" "(-9920 -6112 1280) (-9920 -6144 1280) (-9920 -6144 1024)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100129"
+			"plane" "(-8192 -6112 1024) (-8192 -6144 1024) (-8192 -6144 1280)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100128"
+			"plane" "(-8192 -6112 1280) (-9920 -6112 1280) (-9920 -6112 1024)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100127"
+			"plane" "(-8192 -6144 1024) (-9920 -6144 1024) (-9920 -6144 1280)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "723882"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/alarms/combine_bank_alarm_loop4.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jump_fail_sound"
+	"volstart" "0"
+	"origin" "-9824 -6176 1137"
+	editor
+	{
+		"color" "0 218 155"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-9282.97 -7303.54 1253.06]"
-		"look" "[-9702.27 -7530.48 1144.75]"
+		"position" "[-9672.33 -7962.89 1241.33]"
+		"look" "[-9924.82 -7610.54 1015.2]"
 	}
 }
 cordon
