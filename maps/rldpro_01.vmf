@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2938"
+	"mapversion" "2939"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,7 +62,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2938"
+	"mapversion" "2939"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -88374,98 +88374,6 @@ entity
 }
 entity
 {
-	"id" "715760"
-	"classname" "trigger_teleport"
-	"origin" "-9064 -4736 480"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"target" "rld_tel_dest_1"
-	solid
-	{
-		"id" "715723"
-		side
-		{
-			"id" "99834"
-			"plane" "(-10304 -6144 512) (-10304 -6144 448) (-10304 -3328 448)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "99833"
-			"plane" "(-10304 -3328 512) (-10304 -3328 448) (-7824 -3328 448)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "99832"
-			"plane" "(-10304 -6144 448) (-10304 -6144 512) (-7824 -6144 512)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "99831"
-			"plane" "(-7824 -6144 512) (-10304 -6144 512) (-10304 -3328 512)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "32"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "99830"
-			"plane" "(-7824 -3328 512) (-7824 -3328 448) (-7824 -6144 448)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "99829"
-			"plane" "(-7824 -3328 448) (-10304 -3328 448) (-10304 -6144 448)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
 	"id" "710212"
 	"classname" "info_target"
 	"angles" "45 283 0"
@@ -88548,8 +88456,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-8681.45 -5740.79 1672.23]"
-		"look" "[-8211.83 -5809.62 1554.95]"
+		"position" "[-8420.9 -6844.27 1884.96]"
+		"look" "[-8264.85 -6539.86 1535.64]"
 	}
 }
 cordon
