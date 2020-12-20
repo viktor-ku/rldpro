@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2939"
+	"mapversion" "2941"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,7 +62,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2939"
+	"mapversion" "2941"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -59512,12 +59512,12 @@ entity
 	"fogcolor2" "106 108 115"
 	"fogdir" "0 0 0"
 	"fogenable" "1"
-	"fogend" "6000"
+	"fogend" "15000"
 	"fogmaxdensity" "1"
 	"fogstart" "2048"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"origin" "-8299.3 -6004 1444"
+	"origin" "-8256 -6176 1040"
 	editor
 	{
 		"color" "255 255 255"
@@ -88456,8 +88456,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-8420.9 -6844.27 1884.96]"
-		"look" "[-8264.85 -6539.86 1535.64]"
+		"position" "[-8358.92 -6244.34 1194.5]"
+		"look" "[-8083.12 -6145.82 803.015]"
 	}
 }
 cordon
