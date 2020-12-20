@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "3086"
+	"mapversion" "3088"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,7 +62,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "3086"
+	"mapversion" "3088"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -87788,7 +87788,7 @@ entity
 	"id" "710212"
 	"classname" "info_player_start"
 	"angles" "0 270 0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"origin" "-8140 -5800 1660"
 	editor
 	{
@@ -88005,28 +88005,13 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
-entity
-{
-	"id" "723091"
-	"classname" "info_player_start"
-	"angles" "0 151.5 0"
-	"spawnflags" "1"
-	"origin" "-9805 -7412 1026"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 10500]"
-	}
-}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-9716.09 -7405.49 1127.77]"
-		"look" "[-10181.9 -7360.06 986.463]"
+		"position" "[-8156.42 -5786.75 1748.77]"
+		"look" "[-7893.1 -6026.94 1414.08]"
 	}
 }
 cordon
