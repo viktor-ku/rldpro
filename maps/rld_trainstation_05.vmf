@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "5007"
+	"mapversion" "5005"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -104,7 +104,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "5007"
+	"mapversion" "5005"
 	"classname" "worldspawn"
 	"chaptertitle" "CHAPTER2_TITLE"
 	"fogcolor" "222 247 254"
@@ -173777,8 +173777,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-5478.65 -851.653 145.09]"
-		"look" "[-5756.06 -895.75 68.0947]"
+		"position" "[-5468.02 -860.398 157.176]"
+		"look" "[-5744.61 -871.183 66.551]"
 	}
 }
 cordon
