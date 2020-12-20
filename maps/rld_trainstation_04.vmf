@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "3129"
+	"mapversion" "3135"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,13 +62,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "0"
-	"mapversion" "3129"
+	"mapversion" "3135"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -88186,6 +88186,7 @@ entity
 	connections
 	{
 		"OnTrigger" "jump_fail_sound,PlaySound,,0,-1"
+		"OnTrigger" "jump_fail_message,ShowMessage,,0,-1"
 	}
 	solid
 	{
@@ -88293,7 +88294,7 @@ entity
 	"spinup" "0"
 	"targetname" "jump_fail_sound"
 	"volstart" "0"
-	"origin" "-9824 -6176 1137"
+	"origin" "-9824 -6176 1120"
 	editor
 	{
 		"color" "0 218 155"
@@ -88302,13 +88303,30 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
+entity
+{
+	"id" "723922"
+	"classname" "env_message"
+	"message" "GAMEOVER_STUCK"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"targetname" "jump_fail_message"
+	"origin" "-9824 -6176 1152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-7526.38 -4126.7 478.435]"
-		"look" "[-7753.9 -3699.26 410.815]"
+		"position" "[-9700.77 -6373.7 1229.11]"
+		"look" "[-9806.2 -5925.19 1065.5]"
 	}
 }
 cordon
