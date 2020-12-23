@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "3343"
+	"mapversion" "3345"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "3343"
+	"mapversion" "3345"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -8713,181 +8713,6 @@ entity
 }
 entity
 {
-	"id" "418773"
-	"classname" "move_rope"
-	"MoveSpeed" "64"
-	"NextKey" "cable02_6"
-	"PositionInterpolator" "2"
-	"RopeMaterial" "cable/cable"
-	"Slack" "110"
-	"Subdiv" "2"
-	"targetname" "substation_cable02_1"
-	"TextureScale" "1"
-	"Width" "2"
-	"origin" "-6577 -4814 106.359"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -11268]"
-	}
-}
-entity
-{
-	"id" "418776"
-	"classname" "move_rope"
-	"MoveSpeed" "64"
-	"NextKey" "cable03_6"
-	"PositionInterpolator" "2"
-	"RopeMaterial" "cable/cable"
-	"Slack" "100"
-	"Subdiv" "2"
-	"targetname" "substation_cable03_1"
-	"TextureScale" "1"
-	"Width" "2"
-	"origin" "-6417 -4814 106.359"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -10768]"
-	}
-}
-entity
-{
-	"id" "419492"
-	"classname" "keyframe_rope"
-	"MoveSpeed" "64"
-	"RopeMaterial" "cable/cable"
-	"Slack" "100"
-	"Subdiv" "2"
-	"targetname" "cable03_6"
-	"TextureScale" "1"
-	"Width" "1"
-	"origin" "-7154.44 -4722.56 358.543"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -6268]"
-	}
-}
-entity
-{
-	"id" "419495"
-	"classname" "keyframe_rope"
-	"Barbed" "0"
-	"Breakable" "0"
-	"Collide" "0"
-	"Dangling" "0"
-	"MoveSpeed" "64"
-	"RopeMaterial" "cable/cable"
-	"Slack" "100"
-	"Subdiv" "2"
-	"targetname" "cable02_6"
-	"TextureScale" "1"
-	"Type" "0"
-	"Width" "2"
-	"origin" "-7145 -4712 358.543"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -5768]"
-	}
-}
-entity
-{
-	"id" "419498"
-	"classname" "keyframe_rope"
-	"MoveSpeed" "64"
-	"RopeMaterial" "cable/cable"
-	"Slack" "120"
-	"Subdiv" "2"
-	"targetname" "cable01_7"
-	"TextureScale" "1"
-	"Width" "1"
-	"origin" "-7135 -4703 358.543"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -5268]"
-	}
-}
-entity
-{
-	"id" "420285"
-	"classname" "move_rope"
-	"MoveSpeed" "64"
-	"NextKey" "cable01_7"
-	"PositionInterpolator" "2"
-	"RopeMaterial" "cable/cable"
-	"Slack" "140"
-	"Subdiv" "2"
-	"targetname" "substation_cable04_1"
-	"TextureScale" "1"
-	"Width" "2"
-	"origin" "-6773 -4806 183"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 0]"
-	}
-}
-entity
-{
-	"id" "420321"
-	"classname" "move_rope"
-	"MoveSpeed" "64"
-	"NextKey" "cable02_6"
-	"PositionInterpolator" "2"
-	"RopeMaterial" "cable/cable"
-	"Slack" "125"
-	"Subdiv" "2"
-	"targetname" "substation_cable05_1"
-	"TextureScale" "1"
-	"Width" "2"
-	"origin" "-6832 -4806 183"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 500]"
-	}
-}
-entity
-{
-	"id" "420324"
-	"classname" "move_rope"
-	"MoveSpeed" "64"
-	"NextKey" "cable03_6"
-	"PositionInterpolator" "2"
-	"RopeMaterial" "cable/cable"
-	"Slack" "125"
-	"Subdiv" "2"
-	"targetname" "substation_cable06_1"
-	"TextureScale" "1"
-	"Width" "2"
-	"origin" "-6890 -4806 183"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 1000]"
-	}
-}
-entity
-{
 	"id" "426119"
 	"classname" "func_detail"
 	solid
@@ -10168,8 +9993,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-8594.92 -5837.38 2044.7]"
-		"look" "[-8195.1 -5750.79 1777]"
+		"position" "[-8417.13 -5340.26 1466.11]"
+		"look" "[-8290.75 -5174.84 1023.75]"
 	}
 }
 cordon
