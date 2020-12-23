@@ -33,12 +33,16 @@ at the end of the area I will provide a way of knowing if you hit the right spot
 
 Your usual route, you have to go throught the area and get to the window
 
+![RLD Window Jump](/images/rld_window.jpg)
+
 ### 2. To the next level
 
 > `rld_jump.bsp`
 
 Two maps merged into one, allowing you to practise landing straight from the wall, 
 without having to touch the changelevel trigger.
+
+![RLD Jump to the next level](/images/rld_jump.jpg)
 
 ### 3. Hallway
 
