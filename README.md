@@ -2,10 +2,6 @@
 
 > Practising _"Red Letter Day"_ (RLD) skip made easy!
 
-This map aims to provide an easier way to practise _"the RLD skip"_,
-since, as you know, loading the game after you have activated the skip crashes 
-it.
-
 
 #### The most annoying things
 
@@ -31,26 +27,22 @@ at the end of the area I will provide a way of knowing if you hit the right spot
 
 ## Features
 
-You can teleport to any of these practising points from the starting room at the beginning
-of the `rldpro_01.bsp` map.
+### 1. Jump to the window
 
-### 1. Wall to the window
+> `rld_window.bsp`
 
-- Your usual route, you have to go throught the area and get to the
-    window
+Your usual route, you have to go throught the area and get to the window
 
-### 2. Wall to the next level
+### 2. To the next level
 
-- Go straight to the next level without having to go throught the window
-    * can be useful to test your angle and velocity
+> `rld_jump.bsp`
+
+Two maps merged into one, allowing you to practise landing straight from the wall, 
+without having to touch the changelevel trigger.
 
 ### 3. Hallway
 
-- Perfect position & velocity after level change
-- You get to this route after you go throught the elevator 
-    after _"Wall to the window"_ route
+> Maybe in the future
 
-### 4. Landing
-
-- Get straight to the next level with perfect velocity & angle
-- Practise landing
+Map that allows you to get a feeling for the pallet touch, instead of rellying on the
+info stats.
