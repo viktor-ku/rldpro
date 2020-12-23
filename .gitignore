@@ -3,3 +3,6 @@
 *.prt
 *.lin
 *.bsp
+
+!/maps/rld_jump.bsp
+!/maps/rld_window.bsp
