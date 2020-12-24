@@ -11165,6 +11165,20 @@ entity
 }
 entity
 {
+	"id" "481945"
+	"classname" "info_landmark"
+	"targetname" "landmark_trainstation_04-05"
+	"origin" "-7920 -4128 -248"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 7500]"
+	}
+}
+entity
+{
 	"id" "738066"
 	"classname" "logic_branch"
 	"InitialValue" "0"
@@ -11188,8 +11202,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-8226.56 -5617.89 1826.78]"
-		"look" "[-8631.39 -5731.14 1577.17]"
+		"position" "[-7594.38 -4669.95 1051.34]"
+		"look" "[-7704.54 -4422.84 644.126]"
 	}
 }
 cordon
