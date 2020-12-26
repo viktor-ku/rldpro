@@ -27,6 +27,11 @@ at the end of the area I will provide a way of knowing if you hit the right spot
 
 ## Features
 
+It's one map, but you can use buttons to 
+
+1. Toggle markup on/off
+2. Choose window or straight jump route
+
 ### 1. Jump to the window
 
 > `rld_window.bsp`
