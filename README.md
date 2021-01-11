@@ -16,7 +16,6 @@
 3. Getting the pallet in the right spot in the hallway at the end
 4. Landing on the roof at the next level
 
-
 This map aims to provide ways to practise the most difficult things
 easier, while solving the _not being able to save_ anooyance, by skipping the
 part with the bucket.
@@ -29,7 +28,7 @@ at the end of the area I will provide a way of knowing if you hit the right spot
 
 It's one map, but you can use buttons to 
 
-1. Toggle markup on/off
+1. Toggle markup on the floor on & off
 2. Choose window or straight jump route
 
 ### 1. Jump to the window
